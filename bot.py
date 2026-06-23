@@ -34,8 +34,8 @@ from telegram.constants import ParseMode
 # ─────────────────────────────────────────────
 #  CONFIG
 # ─────────────────────────────────────────────
-BOT_TOKEN   = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
-OWNER_ID    = int(os.getenv("OWNER_ID", "123456789"))   # Your Telegram user ID
+BOT_TOKEN   = os.getenv("BOT_TOKEN", "8728964607:AAECx1tTazVcRmHAYs2_3oOurAWM_k6juGU")
+OWNER_ID    = int(os.getenv("OWNER_ID", "8725194109"))   # Your Telegram user ID
 DB_FILE     = "database.json"
 
 logging.basicConfig(
